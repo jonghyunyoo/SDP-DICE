@@ -14,10 +14,10 @@ The study uses a stochastic dynamic-programming version of DICE (SDP-DICE) to ex
 - `SDP-DICE_ECS_NoLearn.gms`  
   GAMS code for the no-learning benchmark. The model structure is otherwise parallel to the learning case, but beliefs about ECS are held fixed.
 
-- `figure_data_learning_HD_clean.xlsx`  
+- `figure_data_learning.xlsx`  
   Processed model-output data used by the R plotting script. The workbook contains the averaged simulation outputs used for the main trajectory figures and the temperature-variability sensitivity figure. Sheet names identify the ECS case and variable. For example, `8c_cp` is the carbon-price series for the true ECS = 8°C case, and `32c_gwp` is the gross-world-output series for the true ECS = 3.2°C case.
 
-- `make_figures_clean.R`  
+- `make_figures.R`  
   R code that reads `figure_data_learning_HD_clean.xlsx` and generates the manuscript figures based on the processed model outputs. Some distribution figures are generated directly from the parameter values reported in the manuscript and Supplementary Information.
 
 ## Software requirements
